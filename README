@@ -1,7 +1,7 @@
-dash-seeder
+azart-seeder
 ==============
 
-dash-seeder is a crawler for the Dash network, which exposes a list
+azart-seeder is a crawler for the Azart network, which exposes a list
 of reliable nodes via a built-in DNS server.
 
 Features:
