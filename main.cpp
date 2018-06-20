@@ -356,8 +356,8 @@ extern "C" void* ThreadStats(void*) {
   } while(1);
 }
 
-static const string mainnet_seeds[] = {"dnsseed-1.azartpay.com", "dnsseed-1.azartpay.com", ""};
-static const string testnet_seeds[] = {"dnsseed-2.azartpay.com", "dnsseed-2.azartpay.com", ""};
+static const string mainnet_seeds[] = {"dnsseed-1.azartpay.com", "94.250.253.94", ""};
+static const string testnet_seeds[] = {"dnsseed-2.azartpay.com", "62.109.22.43", ""};
 static const string *seeds = mainnet_seeds;
 
 extern "C" void* ThreadSeeder(void*) {
